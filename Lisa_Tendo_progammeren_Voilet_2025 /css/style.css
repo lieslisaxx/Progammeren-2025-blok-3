@@ -1,0 +1,62 @@
+
+body {
+  background-color:pink;
+  margin: 0;
+  padding: 0;
+  background-image: url("/img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  padding: 1.5em;
+  width: 20em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5em ;
+  background-color:rgba(235, 173, 173, 1);
+  border-radius: 2em;
+  
+}
+
+.picture {
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: center;
+ gap: 1rem;
+ padding: 4rem;
+}
+
+
+.button-group {
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: center;
+
+}
+
+img {
+  height: 15em;
+  width: 40em;
+  border-radius: 3rem;
+}
+
+.titel {
+ text-align: center;
+ background-color:lightblue;
+}
+
+.geel {
+  border: 3px solid gold;
+}
+
+.groen {
+  border: 3px solid green;
+}
+
+.rood {
+  border: 3px solid red;
+}
